@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.25.1-->
+  <key for="port" id="d0" yfiles.type="portgraphics"/>
+  <key for="port" id="d1" yfiles.type="portgeometry"/>
+  <key for="port" id="d2" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d3"/>
+  <key attr.name="description" attr.type="string" for="node" id="d4"/>
+  <key for="node" id="d5" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d6" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d7"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d8"/>
+  <key for="edge" id="d9" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="148.73828125" x="617.6165878906709" y="86.34067025503055"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="138.73828125" x="5.0" xml:space="preserve" y="3.293750000000003">IPB: Src IP in bad_ip_list?
+Cost: 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="1.1102230246251565E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="105.6796875" x="768.1942441159406" y="134.74299307958518"/>
+          <y:Fill color="#FF99CC" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="96.6796875" x="4.5" xml:space="preserve" y="3.2937499999999886">MALICIOUS (IPB)
+Path Cost: 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="1.1102230246251565E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="160.41015625" x="445.8447052345817" y="127.71444636678245"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="153.41015625" x="3.499999999999943" xml:space="preserve" y="3.2937499999999886">PC: Port suspicious_port_X?
+Cost: 1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="1.1102230246251565E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="136.03125" x="606.2548614845816" y="198.1429930795852"/>
+          <y:Fill color="#FF99CC" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="130.03125" x="3.0" xml:space="preserve" y="3.2937499999999886">MALICIOUS (Susp Port)
+Path Cost: 4<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-2.220446049250313E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="82.375" x="435.87490613065063" y="191.11444636678246"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#ABCDEF" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="75.375" x="3.5" xml:space="preserve" y="3.2937499999999886">PC: Port 443?
+Cost: 1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-2.220446049250313E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="100.71875" x="317.01352151236756" y="261.54299307958524"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="92.71875" x="4.0" xml:space="preserve" y="3.2937499999999886">SNI: SNI benign?
+Cost: 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-2.220446049250313E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="104.009765625" x="359.28522615802467" y="342.3928865131585"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="98.009765625" x="3.0" xml:space="preserve" y="3.2937499999999886">BENIGN (SNI OK)
+Path Cost: 7<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-2.220446049250313E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="110.951171875" x="247.22861913304075" y="463.35909683411916"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="103.951171875" x="3.5" xml:space="preserve" y="3.2937499999999886">SM: 'malware.exe'?
+Cost: 10<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-2.220446049250313E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="100.337890625" x="368.2560824692992" y="532.5928865131584"/>
+          <y:Fill color="#FF99CC" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="95.337890625" x="2.5" xml:space="preserve" y="3.2937500000000455">MALICIOUS (SM)
+Path Cost: 17<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="100.0078125" x="246.7256726455327" y="533.5464231953429"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="94.0078125" x="3.0" xml:space="preserve" y="3.2937500000000455">BENIGN (No SM)
+Path Cost: 17<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="75.701171875" x="611.583239463984" y="261.54299307958524"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="68.701171875" x="3.5" xml:space="preserve" y="3.2937499999999886">PC: Port 80?
+Cost: 1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-2.220446049250313E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="103.712890625" x="517.5439624984939" y="342.3928865131585"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="98.712890625" x="2.5" xml:space="preserve" y="3.2937499999999886">HHP: URI benign?
+Cost: 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-2.220446049250313E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="110.341796875" x="480.4090957505283" y="406.3902650300402"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="103.341796875" x="3.5" xml:space="preserve" y="3.2937500000000455">BENIGN (HHP OK)
+Path Cost: 8<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="107.951171875" x="358.17979100804075" y="405.79288651315846"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="103.951171875" x="2.0" xml:space="preserve" y="3.2937500000000455">SM: 'malware.exe'?
+Cost: 10<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="98.337890625" x="486.4110488755283" y="469.7902650300402"/>
+          <y:Fill color="#FF99CC" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="95.337890625" x="1.5" xml:space="preserve" y="3.2937500000000455">MALICIOUS (SM)
+Path Cost: 18<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="98.0078125" x="376.7334851455327" y="469.7902650300402"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="94.0078125" x="2.0" xml:space="preserve" y="3.2937500000000455">BENIGN (No SM)
+Path Cost: 18<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="73.701171875" x="692.6536972656709" y="334.19291534822196"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="68.701171875" x="2.5" xml:space="preserve" y="3.2937499999999886">PC: Port 53?
+Cost: 1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-2.220446049250313E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="137.029296875" x="614.7489395005283" y="405.79288651315846"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="132.029296875" x="2.5" xml:space="preserve" y="3.2937500000000455">DQC: Check DNS Query
+Cost: 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="-3.3306690738754696E-16" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="87.669921875" x="614.48795514355" y="532.5928865131585"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="82.669921875" x="2.5" xml:space="preserve" y="3.2937500000000455">BENIGN (DNS)
+Path Cost: 9<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="107.673828125" x="494.8222278691844" y="532.5928865131584"/>
+          <y:Fill color="#FF99CC" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="102.673828125" x="2.5" xml:space="preserve" y="3.2937500000000455">MALICIOUS (DNS)
+Path Cost: 9<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="108.951171875" x="766.5585019284406" y="405.79288651315846"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="103.951171875" x="2.5" xml:space="preserve" y="3.2937500000000455">SM: 'malware.exe'?
+Cost: 10<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="100.337890625" x="775.1717831784406" y="477.39285767809497"/>
+          <y:Fill color="#FF99CC" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="95.337890625" x="2.5" xml:space="preserve" y="3.2937500000000455">MALICIOUS (SM)
+Path Cost: 17<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="2.220446049250313E-16" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry height="33.4" width="100.0078125" x="666.5506894284406" y="477.39285767809497"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle hasColor="false" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.8125" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="94.0078125" x="3.0" xml:space="preserve" y="3.2937500000000455">BENIGN (No SM)
+Path Cost: 17<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="9.992007221626409E-16" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0" target="n1">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="31.947286485270524" ty="-10.64743367935435"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="8.343943847702121" anchorY="-0.09752284240713038" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.22831476619573765" upY="-0.9735873702636993" verticalTextPosition="bottom" visible="true" width="20.677734375" x="8.343943847702121" xml:space="preserve" y="-13.14967852500485">Yes<y:LabelModel><y:RotatedSliderEdgeLabelModel angle="0.0" autoRotationEnabled="true" distance="2.0" distanceRelativeToEdge="true" mode="side_slider"/></y:LabelModel><y:ModelParameter><y:RotatedSliderEdgeLabelModelParameter invertingSign="true" ratio="0.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n0" target="n2">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-59.681128820339154" ty="-6.818858131488128"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-18.79342031765259" anchorY="-12.707547242902663" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.15139204841455658" upY="0.9884737971624966" verticalTextPosition="bottom" visible="true" width="15.33984375" x="-33.95645391709448" xml:space="preserve" y="-12.707547242902663">No<y:LabelModel><y:RotatedSliderEdgeLabelModel angle="0.0" autoRotationEnabled="true" distance="2.0" distanceRelativeToEdge="true" mode="side_slider"/></y:LabelModel><y:ModelParameter><y:RotatedSliderEdgeLabelModelParameter invertingSign="false" ratio="0.2499999999999999" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="30.493124512556392" anchorY="12.274821141393431" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.42917470969367527" upY="-0.9032214947394407" verticalTextPosition="bottom" visible="true" width="20.677734375" x="30.493124512556392" xml:space="preserve" y="0.1660079775428045">Yes<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n2" target="n4">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-19.10253001419852" anchorY="-0.4747799469415668" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.7913063289638766" upY="0.6114198996939116" verticalTextPosition="bottom" visible="true" width="15.33984375" x="-28.4816157411438" xml:space="preserve" y="-0.4747799469415668">No<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n4" target="n5">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-21.001433988525832" sy="13.665228918364278" tx="-50.344420961263154" ty="-5.166805533306274"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-37.62295148138264" anchorY="-2.4706383715598577" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.3479250195080141" upY="0.937522362826801" verticalTextPosition="bottom" visible="true" width="63.029296875" x="-96.71432681494454" xml:space="preserve" y="-2.4706383715598577">Yes (~80%)<y:LabelModel><y:RotatedSliderEdgeLabelModel angle="0.0" autoRotationEnabled="true" distance="2.0" distanceRelativeToEdge="true" mode="side_slider"/></y:LabelModel><y:ModelParameter><y:RotatedSliderEdgeLabelModelParameter invertingSign="false" ratio="1.0" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n4" target="n10">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="42.00558165727091" anchorY="15.002394693516948" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.3782324090986133" upY="-0.9257106700840492" verticalTextPosition="bottom" visible="true" width="15.33984375" x="42.00558165727091" xml:space="preserve" y="2.592086022702663">No<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n5" target="n6">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="35.28176739101258" sy="16.722370409301902" tx="37.62655769614196" ty="-10.926219846491847"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="15.345729461363703" anchorY="14.599638749742553" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.7546055221635051" upY="-0.6561787149247863" verticalTextPosition="bottom" visible="true" width="20.677734375" x="15.345729461363703" xml:space="preserve" y="5.802742852782137">Yes<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n5" target="n7">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-35.65737729570458" anchorY="60.79110635246337" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.9523041709344949" upY="0.3051503990178685" verticalTextPosition="bottom" visible="true" width="39.3515625" x="-47.66552229455617" xml:space="preserve" y="60.79110635246337">No/Sus<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n7" target="n8">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="22.073621333288372" anchorY="10.875669866375631" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.5134118784616366" upY="-0.8581423209785739" verticalTextPosition="bottom" visible="true" width="20.677734375" x="22.073621333288372" xml:space="preserve" y="-0.6288006242433752">Yes<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n7" target="n9">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-16.266777979908795" anchorY="9.454615093031862" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.9963965236312136" upY="0.08481726059967022" verticalTextPosition="bottom" visible="true" width="15.33984375" x="-17.567861504810768" xml:space="preserve" y="9.454615093031862">No<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n10" target="n11">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-30.431040810721527" sy="17.494896193771353" tx="-45.48374114432727" ty="-10.092886513158476"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-21.67944251558663" anchorY="-5.514925328472657" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.488700349289364" upY="0.8724516998690837" verticalTextPosition="bottom" visible="true" width="63.029296875" x="-76.6694597157335" xml:space="preserve" y="-5.514925328472657">Yes (~10%)<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n10" target="n16">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="12.469169815408236" anchorY="20.364641089768327" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.6719564053752498" upY="-0.7405907029359556" verticalTextPosition="bottom" visible="true" width="15.33984375" x="12.469169815408236" xml:space="preserve" y="10.436096978533172">No<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="true" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="10.0" distanceToCenter="false" position="center" ratio="0.6020213577421805" segment="-1"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n11" target="n12">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-16.865800547880326" anchorY="-1.0586344379631782" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.884133590403575" upY="0.4672341964369512" verticalTextPosition="bottom" visible="true" width="20.677734375" x="-26.527145152720173" xml:space="preserve" y="-1.0586344379631782">Yes<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n11" target="n13">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-24.413057675853565" sy="16.687522768488293" tx="28.79985586494888" ty="-16.679967679543893"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-37.34682815110057" anchorY="-5.253922753951713" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.2773588282693617" upY="0.9607664026083794" verticalTextPosition="bottom" visible="true" width="39.3515625" x="-75.15448729124438" xml:space="preserve" y="-5.253922753951713">No/Sus<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n13" target="n14">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="21.242396674147642" anchorY="8.761626298010071" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.46031392673511295" upY="-0.8877562102591573" verticalTextPosition="bottom" visible="true" width="20.677734375" x="21.242396674147642" xml:space="preserve" y="-3.139855395776756">Yes<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n13" target="n15">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="3.6071050833791674" anchorY="7.3626134056149795" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.9782129814408201" upY="-0.2076038606111692" verticalTextPosition="bottom" visible="true" width="15.33984375" x="3.6071050833791674" xml:space="preserve" y="4.579424149296493">No<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n16" target="n17">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-31.892757424252977" sy="16.712199565477135" tx="-60.437329207411835" ty="-12.283716162011444"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-16.659094182066383" anchorY="-8.240395586853651" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.4949965397251885" upY="0.8688949451228785" verticalTextPosition="bottom" visible="true" width="56.35546875" x="-65.62607610897172" xml:space="preserve" y="-8.240395586853651">Yes (~5%)<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n16" target="n20">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="19.61548294916929" anchorY="12.805137533257891" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.6161372071658449" upY="-0.787638839790086" verticalTextPosition="bottom" visible="true" width="15.33984375" x="19.61548294916929" xml:space="preserve" y="2.2458543373220508">No<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n17" target="n18">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-24.94067185697827" sy="-0.24115640935201554" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-15.406270930668711" anchorY="36.33658158151786" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="1.0" upY="1.8369701987210297E-16" verticalTextPosition="bottom" visible="true" width="20.677734375" x="-15.406270930668715" xml:space="preserve" y="36.33658158151786">Yes<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n17" target="n19">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="-42.8345874766909" sy="16.686929462516503" tx="42.51836304252265" ty="-16.738752089317245"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-34.66567791297132" anchorY="32.69921637350217" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.8844996668822602" upY="0.4665408227424162" verticalTextPosition="bottom" visible="true" width="15.33984375" x="-41.82234123683643" xml:space="preserve" y="32.69921637350217">No<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n20" target="n21">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="2.525882808157121" anchorY="8.683325852672738" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.9981959643614092" upY="-0.06004012602082162" verticalTextPosition="bottom" visible="true" width="20.677734375" x="2.525882808157121" xml:space="preserve" y="7.878412913206098">Yes<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n20" target="n22">
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle cap="0" color="#000000" dashPhase="0.0" join="0" miterLimit="10.0" type="custom" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" anchorX="-30.26219472393791" anchorY="2.061928474714364" bottomInset="0" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Arial" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.40625" horizontalTextPosition="center" iconTextGap="4" leftInset="0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" rightInset="0" textColor="#000000" topInset="0" upX="0.5652968306230356" upY="0.8248875640276988" verticalTextPosition="bottom" visible="true" width="15.33984375" x="-42.91584106744093" xml:space="preserve" y="2.061928474714364">No<y:LabelModel><y:RotatedDiscreteEdgeLabelModel angle="0.0" autoRotationEnabled="true" candidateMask="18" distance="2.0" positionRelativeToSegment="false"/></y:LabelModel><y:ModelParameter><y:RotatedDiscreteEdgeLabelModelParameter position="head"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d6">
+    <y:Resources/>
+  </data>
+</graphml>
