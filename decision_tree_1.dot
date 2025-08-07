@@ -1,0 +1,91 @@
+// Decision Tree 1: Cost-Optimized for Common Benign Traffic
+digraph {
+	fontsize=20 label="Decision Tree 1: Cost-Optimized for Common Benign Traffic" labelloc=t
+	rankdir=TB
+	T1_ROOT [label="PC: Port 443?
+Cost: 1" fillcolor=lightblue shape=box style=filled]
+	T1_ROOT -> T1_N1 [label="Yes (80%)"]
+	T1_ROOT -> T1_N5 [label=No]
+	T1_N1 [label="IPB: Src IP in bad_ip_list?
+Cost: 3" fillcolor=lightblue shape=box style=filled]
+	T1_N1 -> T1_OUT_MAL_IPB1 [label=Yes]
+	T1_N1 -> T1_N2 [label=No]
+	T1_OUT_MAL_IPB1 [label="MALICIOUS (IPB)
+Path Cost: 4" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_N2 [label="SNI: SNI available?
+Cost: 2" fillcolor=lightblue shape=box style=filled]
+	T1_N2 -> T1_N3 [label=Yes]
+	T1_N2 -> T1_OUT_BEN_NO_SNI [label=No]
+	T1_OUT_BEN_NO_SNI [label="BENIGN (No SNI)
+Path Cost: 6" fillcolor=lightgreen shape=ellipse style=filled]
+	T1_N3 [label="SM: 'malware.exe'?
+Cost: 10" fillcolor=lightblue shape=box style=filled]
+	T1_N3 -> T1_OUT_MAL_SM1 [label=Yes]
+	T1_N3 -> T1_OUT_BEN_SM1 [label=No]
+	T1_OUT_MAL_SM1 [label="MALICIOUS (SM)
+Path Cost: 16" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_OUT_BEN_SM1 [label="BENIGN (No SM)
+Path Cost: 16" fillcolor=lightgreen shape=ellipse style=filled]
+	T1_N5 [label="PC: Port 80?
+Cost: 1" fillcolor=lightblue shape=box style=filled]
+	T1_N5 -> T1_N6 [label="Yes (10%)"]
+	T1_N5 -> T1_N9 [label=No]
+	T1_N6 [label="IPB: Src IP in bad_ip_list?
+Cost: 3" fillcolor=lightblue shape=box style=filled]
+	T1_N6 -> T1_OUT_MAL_IPB2 [label=Yes]
+	T1_N6 -> T1_N7 [label=No]
+	T1_OUT_MAL_IPB2 [label="MALICIOUS (IPB)
+Path Cost: 5" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_N7 [label="HHP: Parse HTTP
+Cost: 2" fillcolor=lightblue shape=box style=filled]
+	T1_N7 -> T1_N8 [label=Parsed]
+	T1_N7 -> T1_OUT_BEN_NO_HHP [label="Parse Fail"]
+	T1_OUT_BEN_NO_HHP [label="BENIGN (HHP Fail)
+Path Cost: 7" fillcolor=lightgreen shape=ellipse style=filled]
+	T1_N8 [label="SM: 'malware.exe'?
+Cost: 10" fillcolor=lightblue shape=box style=filled]
+	T1_N8 -> T1_OUT_MAL_SM2 [label=Yes]
+	T1_N8 -> T1_OUT_BEN_SM2 [label=No]
+	T1_OUT_MAL_SM2 [label="MALICIOUS (SM)
+Path Cost: 17" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_OUT_BEN_SM2 [label="BENIGN (No SM)
+Path Cost: 17" fillcolor=lightgreen shape=ellipse style=filled]
+	T1_N9 [label="PC: Port 53?
+Cost: 1" fillcolor=lightblue shape=box style=filled]
+	T1_N9 -> T1_N10 [label="Yes (5%)"]
+	T1_N9 -> T1_N12 [label=No]
+	T1_N10 [label="IPB: Src IP in bad_ip_list?
+Cost: 3" fillcolor=lightblue shape=box style=filled]
+	T1_N10 -> T1_OUT_MAL_IPB3 [label=Yes]
+	T1_N10 -> T1_N11 [label=No]
+	T1_OUT_MAL_IPB3 [label="MALICIOUS (IPB)
+Path Cost: 6" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_N11 [label="DQC: Check DNS Query
+Cost: 2" fillcolor=lightblue shape=box style=filled]
+	T1_N11 -> T1_OUT_BEN_DNS [label=OK]
+	T1_N11 -> T1_OUT_MAL_DNS [label=NOK]
+	T1_OUT_BEN_DNS [label="BENIGN (DNS)
+Path Cost: 8" fillcolor=lightgreen shape=ellipse style=filled]
+	T1_OUT_MAL_DNS [label="MALICIOUS (DNS)
+Path Cost: 8" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_N12 [label="PC: Port suspicious_port_X?
+Cost: 1" fillcolor=lightblue shape=box style=filled]
+	T1_N12 -> T1_OUT_MAL_SUSP_PORT [label="Yes (<1%)"]
+	T1_N12 -> T1_N13 [label=No]
+	T1_OUT_MAL_SUSP_PORT [label="MALICIOUS (Susp Port)
+Path Cost: 4" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_N13 [label="IPB: Src IP in bad_ip_list?
+Cost: 3" fillcolor=lightblue shape=box style=filled]
+	T1_N13 -> T1_OUT_MAL_IPB4 [label=Yes]
+	T1_N13 -> T1_N14 [label=No]
+	T1_OUT_MAL_IPB4 [label="MALICIOUS (IPB)
+Path Cost: 7" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_N14 [label="SM: 'malware.exe'?
+Cost: 10" fillcolor=lightblue shape=box style=filled]
+	T1_N14 -> T1_OUT_MAL_SM3 [label=Yes]
+	T1_N14 -> T1_OUT_BEN_SM3 [label=No]
+	T1_OUT_MAL_SM3 [label="MALICIOUS (SM)
+Path Cost: 17" fillcolor=lightcoral shape=ellipse style=filled]
+	T1_OUT_BEN_SM3 [label="BENIGN (No SM)
+Path Cost: 17" fillcolor=lightgreen shape=ellipse style=filled]
+}
